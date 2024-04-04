@@ -7,7 +7,6 @@ from rest_framework import status
 from rest_framework.generics import CreateAPIView
 from rest_framework.response import Response
 
-from .detection_service import detect_on_image
 from .models import ImageModel
 from .serializers import ImageSerializer
 
